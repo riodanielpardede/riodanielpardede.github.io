@@ -153,11 +153,7 @@ footer {
     border-bottom-color: #14CDD3;
     animation: puterin .8s linear infinite;
 }
-.about {
-    padding: 80px 0;
-    margin-bottom: 100px ;
-    background-color: #a5eff1;
-}
+
 @keyframes puterin{
     100% {
         transform: rotate(360deg);
