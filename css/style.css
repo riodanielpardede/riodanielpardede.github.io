@@ -158,7 +158,6 @@ footer {
     margin-bottom: 100px ;
     background-color: #a5eff1;
 }
-
 @keyframes puterin{
     100% {
         transform: rotate(360deg);
