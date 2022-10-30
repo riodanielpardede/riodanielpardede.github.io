@@ -60,21 +60,11 @@ header ul li a:hover {
     justify-content: center;
     align-items: center;
 }
-.laptop::after {
-    content: '';
-    display: block;
-    position:absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(20, 205, 211, .4);
-}
 .laptop h2 {
     color: white;
     z-index: 1;
     padding: 20px 25px;
-    border: 3px solid rgb(145, 252, 154);
+    border: 3px solid rgb(145, 252, 211);
 }
 section {
     padding: 50px 0;
@@ -90,6 +80,7 @@ section h3 {
     padding-bottom: 100px;
 }
 .about p {
+    text-align: center;
     color: #666;
     word-spacing: 1px;
     line-height: 25px;
@@ -153,13 +144,22 @@ footer {
     border-bottom-color: #14CDD3;
     animation: puterin .8s linear infinite;
 }
-.about {
-    padding: 10px 0;
-    margin-bottom: 200px ;
-    background-color: #a5eff1;
-}
 @keyframes puterin{
     100% {
         transform: rotate(360deg);
+    }
+}
+@media screen and (max-width: 600px){
+    .container{
+        width: 100%;
+    }
+    header h1 {
+        text-align: center;
+        float: none;
+    }
+    .box .col-4 {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
     }
 }
