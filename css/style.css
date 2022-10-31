@@ -79,6 +79,9 @@ section h3 {
 .service {
     padding-bottom: 100px;
 }
+.about .container {
+    margin: auto;
+}
 .about p {
     text-align: center;
     color: #666;
